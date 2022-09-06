@@ -94,6 +94,7 @@ color: var(--accent-color);
         letter-spacing: 0.06em;
         background-color: var(--accent-color);
         color:var(--primary-color-white);
+        cursor: pointer;
         border-color: transparent;
 }
 .hero-btn:hover,
@@ -154,6 +155,7 @@ background-color:var(--primary-color-white);
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--secondary-background-color);
+    cursor: pointer;
     border-color: transparent;
 }
 .filter-btn:hover,
