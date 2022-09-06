@@ -20,20 +20,35 @@ a {
 }
 body{
     font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     background-color:var(--primary-color-white);
     color: var(--primary-text-color) ;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* Хедер */
 .header-logo{
 color: var(--accent-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.header-logo span {
+.header-logo-span {
 color: var(--primary-text-color);
 }
 .header-nav a:hover,
@@ -51,6 +66,9 @@ color: var(--primary-text-color);
     color: var(--primary-text-color);
 }
 .contacts-nav a{
+    font-weight: 500;
+    line-height:1.14;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 .contacts-nav .link:hover,
@@ -71,14 +89,14 @@ color: var(--accent-color);
         color: var(--primary-color-white);
 }
 .hero-btn{
-        font-family: 'Roboto';
+        font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.06em;
         background-color: var(--accent-color);
         color:var(--primary-color-white);
-        border: none;
+        border-color: transparent;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -112,6 +130,9 @@ color: var(--accent-color);
 /* Команда */
 .section-team{
     background-color:var(--secondary-background-color) ;
+}
+.team-item{
+background-color:var(--primary-color-white);
 }
 .section-team-title{
     font-weight: 700;
@@ -170,13 +191,13 @@ background-color: var(--accent-color);
 }
 .footer-logo{
 color: var(--accent-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.footer-logo span{
+.footer-logo-span{
     color: var(--primary-color-white);
 }
 .address{
@@ -185,6 +206,13 @@ color: var(--accent-color);
         line-height: 1.71;
         letter-spacing: 0.03em;
         color:var(--primary-color-white);
+}
+.address:hover,
+.address:focus,
+.footer-contacts:hover,
+.footer-contacts:focus
+{
+    color: var(--accent-color);
 }
 .footer-contacts{
     font-style: normal;
