@@ -85,6 +85,7 @@ color: var(--accent-color);
         line-height: 1.36;
         letter-spacing: 0.06em;
         color: var(--primary-color-white);
+        text-transform: uppercase;
 }
 .hero-btn{
         font-family: inherit;
@@ -105,7 +106,8 @@ color: var(--accent-color);
 /* Переваги */
 .benefits-title{
     font-weight: 700;
-     line-height: 1.14;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--primary-text-color);
 }
 .benefits-text{
@@ -148,10 +150,10 @@ background-color:var(--primary-color-white);
 
 /* Портфоліо*/
 .filter-btn{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63px;
+    line-height: 1.63;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--secondary-background-color);
